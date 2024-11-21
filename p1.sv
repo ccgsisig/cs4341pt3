@@ -1,4 +1,4 @@
-module four_input_xor (
+module xorFourInput (
     input [3:0] a,  // 4-bit input vector a[3:0]
     output y        // XOR output
 );
