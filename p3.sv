@@ -1,4 +1,4 @@
-module FSMtrafficproblem(
+module trafficProblemFSM(
     input logic clk, reset, ta, tb,         // Inputs: clk (clock), reset, ta (sensor for road A), tb (sensor for road B)
     output logic [1:0] la, lb               // Outputs: la (traffic light state for road A), lb (traffic light state for road B)
 );
